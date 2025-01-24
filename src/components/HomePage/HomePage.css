@@ -1,0 +1,126 @@
+.body {
+  background-color: #2f2a2a;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 40%;
+  height: 100vh;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding-top: 6%;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.search-bar {
+  margin: 20px 0;
+  width: 2ch;
+}
+
+.weather-info {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  text-align: left;
+}
+
+.weather-info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.weather-info p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.error {
+  color: rgb(235, 35, 35);
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.search-bar {
+  background-color: white;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.search-bar .MuiOutlinedInput-input {
+  color: black; 
+}
+
+.search-bar:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #004ba0; 
+}
+
+.location-header {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  margin-bottom: 10px;
+}
+
+.location-header h2 {
+  margin: 0;
+}
+
+.info{
+  align-items: center; 
+  gap: 10px; 
+  margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .body {
+    width: 90%; 
+    padding: 40px;
+  }
+
+  .heading {
+    padding-top: 30%;
+    font-size: 2.5rem; 
+  }
+
+  .weather-info{
+    padding-bottom: 50px;
+  }
+
+  .weather-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .weather-info p {
+    font-size: 1rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .body {
+    width: 100%; 
+    padding: 40px;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .weather-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .weather-info p {
+    font-size: 0.9rem;
+  }
+}
